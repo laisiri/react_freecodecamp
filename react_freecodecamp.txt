@@ -6,8 +6,28 @@ There are two ways to create a React component.
     return either JSX or null. 
     One important thing to note is that React requires your function name to begin with a "capital letter"
 
+The Example of Stateles Function Componet
+
     const DemoComponent = function() {
         return (
             <div className ="customClass" />
         );
     };
+
+
+    2.Class syntex
+    The other way to define a React component is with ES6 class syntex.
+
+The Example ES6 Class
+
+    class Kitten extends React.Component {
+        constructor(props) {
+            super(props);
+        }
+
+        render() {
+            return (
+                <h1>HI</h1>
+            );
+        }
+    }
