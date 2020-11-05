@@ -7,7 +7,7 @@ function App() {
       <h1>Test React In FreeCodeCamp</h1>
     </div>
   );
-}*/
+}
 function Curriculum(props) {
   return (
     <div>
@@ -30,6 +30,19 @@ class App extends React.Component {
     );
 
   }
+}*/
+function Car (props) {
+return <p>{this.props.brand}</p>
 }
 
+class Garage extends React.Component {
+  render() {
+    return (
+      <div>
+        <h2>The car in garage is</h2>
+        <Car brand={'Toyota'} />
+      </div>
+    )
+  }
+}
 export default App;
